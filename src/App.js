@@ -14,6 +14,8 @@ import Container from 'react-bootstrap/Container'
 
 import landingImage from './assets/LandingPageImage.svg'
 
+
+
 function App() {
 
   const [eventDetails, setEventDetails] = useState({title: null, hostName: null, date: null, timeStart: null, timeEnd : null, photo: null})
