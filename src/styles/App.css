@@ -1,0 +1,154 @@
+.App {
+  text-align: center;
+  background-color: #DDDDDD;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+:root {
+  background-color: #DDDDDD;
+}
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+.snapchat {
+  background: linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+
+
+@media (max-width: 960px) {
+  .createTitle {
+    font-size: 64px;
+  }
+  .heading-text {
+    margin-top: 94px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width: 880px;
+
+  }
+  .heading {
+    width: 100%;
+    line-height: 36px;
+  }
+  .text {
+    font-size: 24px;
+    max-width: 375px;
+    width: 60%;
+    font-weight: 300;
+    font-family: Helvetica;
+  }
+  .title1 {
+    
+    margin-top: 0px;
+
+    font-size: 64px;
+    width: 100%;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .title2 {
+    
+    margin-top: 0px !important;
+    margin-bottom: 0px;
+    font-size: 64px;
+    margin-top: 0;
+    font-style: normal;
+    text-align: center;
+  }
+  .snapchat {
+    margin-bottom: 0px !important;
+    text-align: center;
+    font-style: normal;
+    width: 573.91px;
+    font-size: 64px;
+  }
+  .landingImage {
+    margin-top: 40px;
+    width: 311px;
+    text-align: center;
+    font-style: normal;
+    height: 548px;
+  }
+}
+
+@media (max-width: 375px) {
+  .createTitle {
+    font-size: 36px;
+  }
+  .text {
+    font-size: 16px;
+    width: 90%;
+    font-weight: 300;
+    font-family: Helvetica;
+  }
+  .heading-text {
+    margin-top: 94px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width: 321px;
+    height: 160px;
+
+  }
+  .heading {
+    width: 283px;
+    line-height: 36px;
+  }
+  .title1 {
+    width: 283px;
+    margin-top: 0px;
+    margin-bottom: 0px !important;
+    font-size: 36px;
+    font-style: normal;
+    text-align: center;
+  }
+  .title2 {
+    width: 283px;
+    margin-top: 0px !important;
+    margin-bottom: 0px;
+    font-size: 36px;
+    margin-top: 0;
+    font-style: normal;
+    text-align: center;
+  }
+  .snapchat {
+    margin-bottom: 0px !important;
+    text-align: center;
+    font-style: normal;
+    width: 163px;
+    font-size: 36px;
+  }
+  .landingImage {
+    margin-top: 35px;
+    width: 165.63px;
+    text-align: center;
+    font-style: normal;
+    height: 292px;
+  }
+}
+

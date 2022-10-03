@@ -1,0 +1,13 @@
+.createBtn {
+	background-image: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%) !important;
+  
+  border: 0px !important;
+  color: white !important;
+  border-radius: 10px !important;
+
+  align-items: center !important;
+  
+  width: 187px !important;
+  height: 50px !important;
+  margin-top: 40px;
+}
