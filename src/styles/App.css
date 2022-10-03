@@ -183,6 +183,9 @@ a:active {
     color: #828282;
     margin-bottom: 20px;
   }
+  .neededspace {
+    margin-right: 5px;
+  }
 
   .box {
     width: 48px;

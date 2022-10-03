@@ -19,8 +19,12 @@ const Create = ({createPage}) => {
       </Form.Group>
 
       <Form.Group className="mb-3"> 
-        <Form.Label>Event Date</Form.Label>
-        <Form.Control type="date" name="date" placeholder="Date"/>
+        <Form.Label>Event Start Date</Form.Label>
+        <Form.Control type="Date" name="startDate" placeholder="Date"/>
+      </Form.Group>
+      <Form.Group className="mb-3"> 
+        <Form.Label>Event End Date</Form.Label>
+        <Form.Control type="date" name="endDate" placeholder="Date"/>
       </Form.Group>
 
       <Form.Label>Event Time</Form.Label>
@@ -30,41 +34,13 @@ const Create = ({createPage}) => {
           aria-label="Recipient's username with two button addons"
           name="timeStart"
         />
-        <Form.Check
-          inline
-          label="AM"
-          name="group1"
-          type={'radio'}
-          id={`inline-${'radio'}-1`}
-        />
-        <Form.Check
-          inline
-          label="PM"
-          name="group1"
-          type={'radio'}
-          id={`inline-${'radio'}-2`}
-        />
       </InputGroup>
 
       <InputGroup>
         <Form.Control
-          placeholder="e.g. 9:00"
+          placeholder="e.g. 16:00"
           aria-label="Recipient's username with two button addons"
           name="timeEnd"
-        />
-        <Form.Check
-          inline
-          label="AM"
-          name="group2"
-          type={'radio'}
-          id={`inline-${'radio'}-3`}
-        />
-        <Form.Check
-          inline
-          label="PM"
-          name="group2"
-          type={'radio'}
-          id={`inline-${'radio'}-4`}
         />
       </InputGroup>
 

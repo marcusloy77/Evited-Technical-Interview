@@ -10,9 +10,9 @@ const Event = ({eventDetails, months}) => {
     <div className="eventPage">
       <div><img className="photo"src={image} alt='cake'></img></div>
       <div className="eventTitleWrap"><strong className="eventTitle">{eventDetails.title}</strong></div>
-      <div><strong className="hostName">Hosted By <strong>{eventDetails.hostName}</strong></strong></div>
+      <div><strong className="hostName"><span>Hosted By </span><strong> {' ' + eventDetails.hostName}</strong></strong></div>
       <div className="date">
-        <div className="box"></div><strong className="Date">{eventDetails.date}</strong></div>
+        <div className="box"></div><strong className="Date">{eventDetails.startDate} - {eventDetails.endDate}</strong></div>
       <div><strong className="startTime">{eventDetails.timeStart}</strong></div>
       <div><strong className="endTime">{eventDetails.timeEnd}</strong></div>
       <div><strong className="location">{eventDetails.title}</strong></div>
